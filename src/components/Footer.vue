@@ -39,8 +39,8 @@ import { RouterLink } from 'vue-router'
         <div>
           <h3 class="text-white font-semibold mb-3">Legal</h3>
           <ul class="space-y-2 text-sm">
-            <li><a href="#" class="hover:text-blue-400">Privacy Policy</a></li>
-            <li><a href="#" class="hover:text-blue-400">Terms of Service</a></li>
+            <li><RouterLink to="/privacy-policy" class="hover:text-blue-400">Privacy Policy</RouterLink></li>
+            <li><RouterLink to="/terms-of-service" class="hover:text-blue-400">Terms of Service</RouterLink></li>
           </ul>
         </div>
       </div>

@@ -21,6 +21,16 @@ const routes = [
     path: '/login',
     name: 'Login',
     component: () => import('../views/RedirectLogin.vue')
+  },
+  {
+    path: '/privacy-policy',
+    name: 'PrivacyPolicy',
+    component: () => import('../views/PrivacyPolicy.vue')
+  },
+  {
+    path: '/terms-of-service',
+    name: 'TermsOfService',
+    component: () => import('../views/TermsOfService.vue')
   }
 ]
 
