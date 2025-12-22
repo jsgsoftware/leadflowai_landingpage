@@ -17,8 +17,7 @@ const toggleMenu = () => {
         <!-- Logo -->
         <div class="flex-shrink-0 flex items-center">
           <RouterLink to="/" class="flex items-center gap-2">
-            <!-- Placeholder Logo -->
-            <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg"></div>
+            <img src="/brand-assets/logo_thumbnail.svg" alt="Leadflow AI Logo" class="w-8 h-8" />
             <span class="font-bold text-xl tracking-tight">Leadflow AI</span>
           </RouterLink>
         </div>
